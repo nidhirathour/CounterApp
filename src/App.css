@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.App{
+  /* border: 2px solid red; */
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+.App h1{
+  /* border: 2px solid red; */
+  margin: 3rem;
+  font-size: 3rem;
+  text-align: center;
+  color: burlywood;
+  text-shadow: 0 0 5px black;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+}
+.App .Counter{
+  border: 1px solid black;
+  height: 200px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  box-shadow: 0 0 10px black;
+  border-radius: 10px;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+.App .Counter button{
+  height: 40px;
+  width: 150px;
+  font-size: 1.3rem;
+  font-weight: 550;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App .Counter span{
+  font-size: 2rem;
+}
+.App .btn{
+  margin: 1rem;
+  height: 40px;
+  width: 150px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
